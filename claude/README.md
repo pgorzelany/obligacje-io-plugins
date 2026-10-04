@@ -55,7 +55,7 @@ screen before granting access. Directory availability and account permissions
 can depend on the host application.
 
 For support, use the [support section](https://www.obligacje.io/en/integrations#support)
-or email [piotr.gorzelany@apify.eu](mailto:piotr.gorzelany@apify.eu). Read the
+or email [obligacje-io@agentmail.to](mailto:obligacje-io@agentmail.to). Read the
 [privacy policy](https://www.obligacje.io/en/privacy-policy) and
 [terms of service](https://www.obligacje.io/en/terms). ChatGPT or Claude also
 processes received information under its own terms and account settings.
