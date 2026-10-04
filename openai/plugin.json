@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "obligacje-io",
+  "version": "0.1.0",
+  "description": "Polish corporate bond information, cited document evidence and bond education through obligacje.io.",
+  "author": {
+    "name": "Apify Piotr Gorzelany",
+    "email": "piotr.gorzelany@apify.eu",
+    "url": "https://www.obligacje.io"
+  },
+  "homepage": "https://www.obligacje.io/en/integrations",
+  "license": "MIT",
+  "keywords": ["bonds", "Poland", "corporate-bonds", "GPW", "education"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "obligacje.io",
+        "shortDescription": "Polish bond information",
+        "longDescription": "Explore active Polish corporate bonds on the GPW regulated market (GPW RR), inspect issuer and series information, and read available cached document facts and summaries with source documents, page citations and explicit evidence gaps. Read curated Polish or English education, including Treasury bond concepts; Treasury instruments are outside the catalog. Ask one focused question through the obligacje.io assistant and follow links back to the website.\n\nAccess is free after sign-in and explicit OAuth consent, subject to existing usage limits. The 12 catalog, document, knowledge and navigation tools are read-only. The ask_assistant tool creates a private conversation in your obligacje.io account and consumes its existing assistant allowance. Only the question and necessary context should be sent.\n\nResults are information and education, not investment advice. Assistant answers may contain errors; check cited original sources. Missing evidence is not proof that a clause is absent. Contract documents do not establish current covenant compliance, completed payments, actual security creation, today's fixing or the issuer's current financial condition. This integration provides no live prices, personalized investment recommendations, trades or brokerage.\n\nThis is the initial unpublished 0.1.0 package. Ordinary-account production acceptance, provider validation, review and directory publication are pending. The launch targets hosted OAuth in ChatGPT and claude.ai; local Codex loopback OAuth is unsupported and Claude Cowork is unverified.",
+        "developerName": "Apify Piotr Gorzelany",
+        "category": "Productivity",
+        "capabilities": ["Read", "Research"],
+        "websiteURL": "https://www.obligacje.io",
+        "supportURL": "https://www.obligacje.io/en/integrations#support",
+        "privacyPolicyURL": "https://www.obligacje.io/en/privacy-policy",
+        "termsOfServiceURL": "https://www.obligacje.io/en/terms",
+        "defaultPrompt": [
+          "Find active GPW RR corporate bonds maturing in 2028 and link to the filtered catalog.",
+          "Explain early redemption terms for a catalog bond with document and page citations.",
+          "Find a knowledge article explaining floating-rate corporate bond coupons."
+        ],
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png"
+      }
+    }
+  }
+}

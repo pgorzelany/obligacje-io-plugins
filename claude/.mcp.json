@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "obligacje": {
+      "type": "http",
+      "url": "https://api.obligacje.io/mcp"
+    }
+  }
+}
