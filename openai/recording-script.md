@@ -1,11 +1,12 @@
 # Proposed obligacje.io walkthrough
 
 **Status: not executed.** This is a public, reusable recording outline, not a
-record of observed behavior. Version 0.1.0 is initial and unpublished. A real
-ordinary-account acceptance run and demo recording are still required before
-provider review. Provider portal checks, identity verification, acceptance and
-directory publication also remain pending. No recording URL exists in this
-package.
+record of observed behavior. Version 0.1.2 updates the proposed review cases and
+knowledge locale/direct-link instructions.
+Production protocol checks passed on 2026-10-04; an ordinary-account hosted
+acceptance run and demo recording are still required before provider review.
+Provider review and directory publication remain pending. No recording URL
+exists in this package.
 
 Use an ordinary obligacje.io account and the host application's standard
 connection flow, without operator grants, special entitlements or an auth
@@ -16,7 +17,7 @@ Dedicated reviewer-account access, if required later, belongs only in the
 provider's secure review form, never in a distributed file or public video.
 
 1. Open the public [setup guide](https://www.obligacje.io/en/integrations).
-   State that access is free after sign-in, subject to existing limits. Show
+   Explain account sign-in, consent and existing usage limits. Show
    the supported hosted OAuth connection in ChatGPT or claude.ai. State which
    host was actually tested; do not imply Cowork, Claude Code or local Codex
    acceptance from a hosted test.
@@ -27,7 +28,9 @@ provider's secure review form, never in a distributed file or public video.
 3. Run the first four positive cases in [review-cases.json](./review-cases.json):
    a filtered catalog query with full-match statistics and a matching website
    link; issuer discovery and selected series detail; cached document evidence
-   with source/page citations; and published knowledge text. Show real tool
+   with source/page citations; and published knowledge text. For the English
+   knowledge case, show `locale: en` on search, read and pagination and the
+   returned direct English article link. Show real tool
    invocations and results, including missing values, truncation, source gaps
    or failures. Counts and sample bonds may change; never substitute fabricated
    fixed results.
@@ -37,7 +40,8 @@ provider's secure review form, never in a distributed file or public video.
    allowance and should not be automatically retried after a timeout. Mask
    unrelated account details.
 5. Run the three proposed negative cases. Show that unrelated writing,
-   personalized investment/trading and secret/private-data requests do not
+   personalized investment/trading and retail Treasury instrument-record
+   requests outside the corporate catalog do not
    invoke the integration. Record unexpected activation as a failed case,
    not as a pass.
 6. Revoke the demonstrated connection in obligacje.io account controls. Use
