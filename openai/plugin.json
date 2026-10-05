@@ -1,24 +1,38 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "obligacje-io",
-  "version": "0.1.0",
-  "description": "Polish corporate bond information, cited document evidence and bond education through obligacje.io.",
+  "version": "0.1.4",
+  "description": "Research active Polish corporate GPW RR bonds using cited document evidence and bond education.",
   "author": {
-    "name": "Apify Piotr Gorzelany",
+    "name": "Apify",
     "email": "obligacje-io@agentmail.to",
     "url": "https://www.obligacje.io"
   },
   "homepage": "https://www.obligacje.io/en/integrations",
   "license": "MIT",
-  "keywords": ["bonds", "Poland", "corporate-bonds", "GPW", "education"],
+  "keywords": [
+    "Catalyst",
+    "obligacje",
+    "obligacje korporacyjne",
+    "polskie obligacje",
+    "bonds",
+    "corporate bonds",
+    "Polish bonds",
+    "GPW",
+    "analiza obligacji",
+    "bond research",
+    "edukacja obligacyjna",
+    "bond education",
+    "dokumenty emisyjne"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "obligacje.io",
-        "shortDescription": "Polish bond information",
-        "longDescription": "Explore active Polish corporate bonds on the GPW regulated market (GPW RR), inspect issuer and series information, and read available cached document facts and summaries with source documents, page citations and explicit evidence gaps. Read curated Polish or English education, including Treasury bond concepts; Treasury instruments are outside the catalog. Ask one focused question through the obligacje.io assistant and follow links back to the website.\n\nAccess is free after sign-in and explicit OAuth consent, subject to existing usage limits. The 12 catalog, document, knowledge and navigation tools are read-only. The ask_assistant tool creates a private conversation in your obligacje.io account and consumes its existing assistant allowance. Only the question and necessary context should be sent.\n\nResults are information and education, not investment advice. Assistant answers may contain errors; check cited original sources. Missing evidence is not proof that a clause is absent. Contract documents do not establish current covenant compliance, completed payments, actual security creation, today's fixing or the issuer's current financial condition. This integration provides no live prices, personalized investment recommendations, trades or brokerage.\n\nThis is the initial unpublished 0.1.0 package. Ordinary-account production acceptance, provider validation, review and directory publication are pending. The launch targets hosted OAuth in ChatGPT and claude.ai; local Codex loopback OAuth is unsupported and Claude Cowork is unverified.",
-        "developerName": "Apify Piotr Gorzelany",
-        "category": "Productivity",
+        "displayName": "ObligacjeIO",
+        "shortDescription": "Polish bond research",
+        "longDescription": "Research active Polish corporate bonds listed on the GPW regulated market (GPW RR). Search and filter series, compare issuer information, review cached source-document facts and summaries with page citations and evidence gaps, and open links to the relevant obligacje.io pages. Read Polish or English bond education, including retail Treasury bond concepts; Treasury instruments are outside the catalog.\n\nSign in to obligacje.io and review the requested permissions before giving consent. Catalog, document, education and navigation tools are read-only. A focused question sent to the obligacje.io assistant creates a private conversation in your obligacje.io account and uses its existing assistant allowance. Send only the question and necessary context.\n\nInformation and education, not investment advice. Answers may contain errors; check original sources. Missing cached evidence does not establish that a clause is absent. Contractual terms do not establish current covenant compliance, completed payments, creation of security, today's benchmark fixing or current issuer health. No live prices, personalized investment recommendations, trading or brokerage.",
+        "developerName": "Apify",
+        "category": "Finance",
         "capabilities": ["Read", "Research"],
         "websiteURL": "https://www.obligacje.io",
         "supportURL": "https://www.obligacje.io/en/integrations#support",
@@ -31,6 +45,14 @@
         ],
         "logo": "./assets/icon.png",
         "composerIcon": "./assets/icon.png"
+      },
+      "publication": {
+        "translations": {
+          "pl-PL": {
+            "subtitle": "Analiza polskich obligacji",
+            "description": "Analizuj aktywne polskie obligacje korporacyjne notowane na rynku regulowanym GPW (GPW RR). Wyszukuj i filtruj serie, porównuj informacje o emitentach, przeglądaj zapisane fakty i podsumowania z dokumentów źródłowych z odwołaniami do stron i wskazanymi lukami w dowodach oraz otwieraj odpowiednie strony obligacje.io. Czytaj materiały edukacyjne o obligacjach po polsku lub angielsku, w tym o detalicznych obligacjach skarbowych; instrumenty skarbowe pozostają poza katalogiem. Katalog nie obejmuje całego rynku Catalyst.\n\nZaloguj się do obligacje.io i sprawdź żądane uprawnienia przed wyrażeniem zgody. Narzędzia katalogu, dokumentów, edukacji i nawigacji służą tylko do odczytu. Wysłanie konkretnego pytania do asystenta obligacje.io tworzy prywatną rozmowę na Twoim koncie obligacje.io i zużywa dostępny na nim limit asystenta. Przekazuj tylko pytanie i niezbędny kontekst.\n\nInformacje i edukacja, nie porada inwestycyjna. Odpowiedzi mogą zawierać błędy; sprawdzaj oryginalne źródła. Brak zapisanych dowodów nie oznacza, że dana klauzula nie istnieje. Warunki umowne nie potwierdzają aktualnego przestrzegania kowenantów, wykonania płatności, ustanowienia zabezpieczeń, dzisiejszego fixingu wskaźnika referencyjnego ani obecnej kondycji emitenta. Bez bieżących cen, spersonalizowanych rekomendacji inwestycyjnych, handlu ani usług maklerskich."
+          }
+        }
       }
     }
   }
