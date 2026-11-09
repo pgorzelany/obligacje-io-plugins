@@ -1,16 +1,22 @@
 {
   "name": "obligacje-io",
   "displayName": "obligacje.io",
-  "version": "0.1.0",
-  "description": "Polish corporate bond information, cited document evidence and bond education through obligacje.io. Initial unpublished package; production acceptance and directory review are pending.",
+  "version": "0.1.6",
+  "description": "Explore bond data, issuer information, cited source documents and educational articles with obligacje.io.",
   "author": {
-    "name": "Apify Piotr Gorzelany",
-    "email": "obligacje-io@agentmail.to",
+    "name": "Apify",
+    "email": "support@obligacje.io",
     "url": "https://www.obligacje.io"
   },
   "homepage": "https://www.obligacje.io/en/integrations",
   "license": "MIT",
-  "keywords": ["bonds", "Poland", "corporate-bonds", "GPW", "education"],
+  "keywords": [
+    "bonds",
+    "Poland",
+    "corporate-bonds",
+    "GPW",
+    "education"
+  ],
   "icon": "./assets/icon.png",
   "documentationUrl": "https://www.obligacje.io/en/integrations",
   "supportUrl": "https://www.obligacje.io/en/integrations#support",
