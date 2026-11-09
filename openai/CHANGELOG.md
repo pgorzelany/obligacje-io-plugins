@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.1.6 — Bond-data service description and tool guidance
+
+- Describe bond data, issuers, cited documents and education without fixing
+  market segments or instrument kinds in public listing copy.
+- Establish current availability from tool results; no new catalog coverage or
+  functionality is introduced.
+- Clarify external document targets, coupon units and issuer profile retrieval.
+- Replace obsolete client and publication restrictions with current setup links.
+- Refresh proposed review cases and walkthrough; execution status remains explicit.
+- Keep plugin identity, OAuth scopes, endpoint and reviewer material unchanged.
+
+## 0.1.5 — Custom-domain support contact
+
+- Updated both package-author contacts and current support documentation to
+  support@obligacje.io. This revision adds no hosted acceptance or directory
+  publication; existing platform publication gates remain in force.
+
 ## 0.1.4 — OpenAI listing localization
 
 - Set the OpenAI display name to ObligacjeIO; the technical package name
