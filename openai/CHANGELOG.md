@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.7 — Polish bond market scope
+
+- Clarify Polish bonds in both package descriptions, OpenAI EN/PL listing copy,
+  shared workflow skill and README, without fixing instrument kinds or markets.
+- Preserve keywords, sample prompts, tool descriptions/schemas, permissions,
+  connection settings and assets. No catalog or technical behavior change.
+- Prepared for owner copy review; this entry does not establish upload,
+  submission, approval or publication of 0.1.7.
+
 ## 0.1.6 — Bond-data service description and tool guidance
 
 - Describe bond data, issuers, cited documents and education without fixing

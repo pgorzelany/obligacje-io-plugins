@@ -1,12 +1,12 @@
 ---
 name: obligacje
-description: "Use when a user asks to search or compare bonds, inspect issuer or cited bond-document information, read bond education, or ask the obligacje.io assistant a focused bond question through its connected MCP tools."
+description: "Use when a user asks to search or compare Polish bonds, inspect issuer or cited bond-document information, read bond education, or ask the obligacje.io assistant a focused bond question through its connected MCP tools."
 ---
 
 # Use obligacje.io
 
 Use the connected obligacje.io MCP tools for informational questions about
-bonds, issuers, source documents and bond education. Describe only the catalog
+Polish bonds, issuers, source documents and bond education. Describe only the catalog
 scope and capabilities established by current tool results. Coverage and data
 availability can change; never infer complete market coverage or instrument
 availability from this package description. Educational coverage does not imply

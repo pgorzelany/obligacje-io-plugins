@@ -1,8 +1,8 @@
 {
   "name": "obligacje-io",
   "displayName": "obligacje.io",
-  "version": "0.1.6",
-  "description": "Explore bond data, issuer information, cited source documents and educational articles with obligacje.io.",
+  "version": "0.1.7",
+  "description": "Explore Polish bond data, issuer information, cited source documents and educational articles with obligacje.io.",
   "author": {
     "name": "Apify",
     "email": "support@obligacje.io",

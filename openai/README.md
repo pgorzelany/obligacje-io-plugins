@@ -2,10 +2,10 @@
 
 ![obligacje.io icon](./assets/icon.png)
 
-Explore bond data, issuer information, source documents and educational articles
+Explore Polish bond data, issuer information, source documents and educational articles
 with obligacje.io in a connected application. This package contains a workflow
 skill, a remote MCP connection manifest, documentation and branding assets.
-Version **0.1.6** updates the service description and tool-use guidance.
+Version **0.1.7** clarifies the service's Polish bond market scope.
 
 Data availability and catalog coverage can change. Use the scope, dates,
 source citations and evidence gaps returned by the tools. A general service
